@@ -2,10 +2,10 @@
 Aplicativo de Reconhecimento de texto em imagens com o ML Kit no Android.
 
 Principais recursos:
-Reconhecer texto em vários scripts e idiomas: permite o reconhecimento de textos em chinês, devanágari, japonês, coreano e latino
-Analisa a estrutura do texto: oferece suporte à detecção de símbolos, elementos, linhas e parágrafos.
-Identificar idioma do texto Identifica o idioma do texto reconhecido
-Reconhecimento em tempo real: pode reconhecer texto em tempo real em uma grande variedade de dispositivos.
+* Reconhecer texto em vários scripts e idiomas: permite o reconhecimento de textos em chinês, devanágari, japonês, coreano e latino
+* Analisa a estrutura do texto: oferece suporte à detecção de símbolos, elementos, linhas e parágrafos.
+* Identificar idioma do texto Identifica o idioma do texto reconhecido
+* Reconhecimento em tempo real: pode reconhecer texto em tempo real em uma grande variedade de dispositivos.
 
 
 
