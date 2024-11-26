@@ -2,5 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="indigo">#4B0B87</color>
+    <color name="romance">#fffdfa</color>
+    <color name="island_spice">#fffbf0</color>
+    <color name="koromiko">#ffbd66</color>
+    <color name="neon_carrot">#ff9e3d</color>
+    <color name="orange">#ff6d1f</color>
 </resources>

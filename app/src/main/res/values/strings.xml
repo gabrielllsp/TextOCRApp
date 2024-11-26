@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TextOCRApp</string>
+    <string name="camera_image">Camera image</string>
+    <string name="take_picture">Take picture</string>
+    <string name="ocr_text">OCR Text:</string>
+    <string name="copy_text">Copy Text</string>
 </resources>
