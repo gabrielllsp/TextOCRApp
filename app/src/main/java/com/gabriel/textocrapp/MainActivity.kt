@@ -28,16 +28,13 @@ import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
 
-//    private lateinit var binding: ActivityMainBinding
-
     private val binding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
 
     private var currentPhotoPath: String? = null
     private lateinit var requestPermissionLauncher: ActivityResultLauncher<String>
-            private lateinit var takePictureLauncher: ActivityResultLauncher<Uri>
-
+    private lateinit var takePictureLauncher: ActivityResultLauncher<Uri>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,7 +46,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
         requestPermissionLauncher =
             registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
                 if (isGranted) {
@@ -57,7 +53,6 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(this, "Camera permission denied", Toast.LENGTH_SHORT).show()
                 }
-
             }
         takePictureLauncher =
             registerForActivityResult(ActivityResultContracts.TakePicture()) { success ->
